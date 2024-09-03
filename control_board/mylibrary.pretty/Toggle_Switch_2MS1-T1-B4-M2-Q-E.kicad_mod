@@ -1,0 +1,128 @@
+(footprint "Toggle_Switch_2MS1-T1-B4-M2-Q-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "496122b0-a6cf-4473-8b55-faee0aea7c56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Toggle_Switch_2MS1-T1-B4-M2-Q-E"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "595c3bbb-357d-4bd0-a21c-6d876cecc001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f3184b4-c841-4da5-a50b-6f4194e1c003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ce6c215-1d18-4288-8167-76265797d26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ada1cf6-19b2-4fa1-b71e-ada19d5f8dbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 -4)
+		(end 2.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ee40a69b-b708-4ca6-8864-f4e5e3408ecf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09cdf0d8-86aa-4240-9321-a77b9919ba7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6ed6a01-32f3-45f7-9f25-f00ee8bf64b0")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbdfbb23-8cf7-4f20-986f-427e4d547d26")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae8b3964-4415-429b-a5d1-f3103e6c3b32")
+	)
+	(model "/home/hibiki/kicad_lib/100SP1T1B4M2QE/100SP1T1B4M2QE.step"
+		(offset
+			(xyz 0 0 -13.5)
+		)
+		(scale
+			(xyz 0.5 0.5 0.6)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
